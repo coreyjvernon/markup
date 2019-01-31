@@ -1,0 +1,191 @@
+.head_box_model {
+border: solid gold 1em;
+}
+
+.searchbar {
+    background-color: purple;
+    border: solid red;
+    display: flex;
+    align-items: center;
+    height: 3.5em;
+    width: 100%;
+    /*margin-top: -1em;*/
+    justify-content: center;
+}
+.triple_box {
+    border: solid black;
+    display: inline-flex;
+    width: 30em;
+    margin-left: 15em;
+    justify-content: flex-start;
+}
+
+.yahoo_logo {
+    border: solid black;
+    width: 4em;
+}
+
+.text {
+border: solid black;
+height: 2em;
+width: 200%;
+}
+
+
+.spyglass {
+    margin-left: 15em;
+  }
+
+.thumbnail {
+    border: solid black;
+    width: 3em;
+    margin-left: 30em;
+}
+
+.banner {
+    border: solid blue;
+    background-image: url("https://media.npr.org/assets/img/2015/08/31/ap_842756722190_slide-d0b2a48f281433f00ba4172edbb435b119375ca1-s800-c85.jpg");
+    height: 25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.clip {
+    border: solid pink;
+    color: white;
+    margin-right: 10em;
+}
+
+.clip a {
+    color: white;
+}
+
+.vertical_menu {
+margin-left: 10em;
+border: solid yellowgreen;
+background-color: purple;
+display: inline-flex;
+flex-direction: column;
+justify-content: space-evenly;
+text-decoration: none;
+height: 100%;
+}
+
+.vertical_menu a {
+    color: black;
+}
+
+.toolbar {
+    display: inline-flex;
+    align-self: auto;
+    border: solid orange;
+    background-color: purple;
+    width: 100%;
+    height: 3.5em;
+    justify-content: center;
+}
+.toolbar button:hover {
+    background-color: violet;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.body {
+  display: flex;
+  border: solid brown 1em;
+  height: 20em;
+}
+
+.icons {
+    border: solid red;
+    width: 30em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Tumblr_logo {
+    height: 7em;
+}
+
+.flickr_logo {
+  height: 7em;
+}
+
+.list {
+    border: solid green;
+    font-size: 1em;
+    align-self: auto;
+    width: 60em;
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    line-height: 3em;
+    justify-content: flex-start;
+}
+
+.score_box {
+    width: 30em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.score_box ul {
+    color: white;
+    background-color: purple;
+    width: 10em;
+    list-style: none;
+    line-height: 2em;
+}
+ 
+.foot_cont {
+    border: solid gray 1em;
+    background-image: url("https://bransontracks.com/wp-content/uploads/2017/07/TR_WheelCarStreaks.jpg");
+    align-self: auto;
+    height: 30em;
+    margin: -1em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.story {
+    border: solid green;
+    color: purple;
+    width: 30em;
+    height: 15em;
+    display: block;
+    align-items: center;
+    margin-left: 5em;
+}
+
+.story p {
+    font-size: 150%;
+}
+
+.foot_cont button {
+    border: solid purple 1px;
+    background-color: purple;
+    margin-left: 10em;
+    margin-top: 1em;
+    height: 2em;
+}
+
+.foot_cont button:hover {
+    background-color: violet;
+    cursor: pointer;
